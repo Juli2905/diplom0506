@@ -1,0 +1,59 @@
+@import 'default';
+
+#app {
+  width: 100%;
+}
+
+body{
+  flex-direction: column;
+}
+.wrapper{
+  max-width: 1110px;
+  margin-bottom: 0 auto;
+}
+header{
+  width: 80%;
+  height: 125px;
+  margin-bottom: 50px;
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+}
+.mainCard{
+  width: 100%;
+  height: 280px;
+  background-color: #00CA69;
+  margin-bottom: 50px;
+  .logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    
+  .circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: white;
+  }
+  p{
+    padding:33px 5px;
+  }
+}
+}
+.container-btn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  .pirplebtn{
+    width: 80%;
+    padding: 5px 20px;
+    border: 1px solid grey;
+}
+}
+
+ 
