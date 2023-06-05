@@ -27,12 +27,11 @@ body {
 
 .wrapper {
   max-width: 1110px;
-  margin-bottom: 0 auto;
+  margin: 0 auto;
 }
 
 header {
-  width: 80%;
-  height: 125px;
+  width: 90%;
   margin-bottom: 50px;
 }
 header nav {
@@ -40,6 +39,7 @@ header nav {
   justify-content: space-between;
   align-items: center;
   gap: 20px;
+  padding: 20px 0;
 }
 
 .mainCard {
