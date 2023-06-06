@@ -1,20 +1,20 @@
-@import 'default';
+@import "default";
 
 #app {
   width: 100%;
 }
 
-body{
+body {
   flex-direction: column;
 }
-.wrapper{
+.wrapper {
   max-width: 1110px;
   margin: 0 auto;
 }
-header{
+header {
   width: 90%;
   margin-bottom: 50px;
-  nav{
+  nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,82 +22,81 @@ header{
     padding: 20px 0;
   }
 }
-.mainCard{
+.mainCard {
   width: 100%;
   height: 280px;
-  background-color: #00CA69;
+  background-color: #00ca69;
   margin-bottom: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  .logo{
+  .logo {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px 0;
-    
-  .circle{
-    width: 80px;
-    height: 80px;
-    border-radius: 100%;
-    background-color: white;
-  }
-  p{
-    padding:33px 5px;
-  }
-  P{
-    .Beatcup{
-      width: 70%;
-      text-align: center;
+
+    .circle {
+      width: 80px;
+      height: 80px;
+      border-radius: 100%;
+      background-color: white;
+    }
+    p {
+      padding: 33px 5px;
+    }
+    P {
+      .Beatcup {
+        width: 70%;
+        text-align: center;
+      }
     }
   }
 }
-}
-.container-btn{
+.container-btn {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  .pirplebtn{
+
+  .pirplebtn {
+    background-color: transparent;
     width: 80%;
     padding: 5px 20px;
     border: 1px solid grey;
-
+  }
 }
-}
-.process{
-  .container{
+.process {
+  .container {
     width: 33%;
     display: flex;
     justify-content: space-between;
-
   }
 }
 
-.container{
+.container {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  .item{
+  .item {
     width: 25%;
   }
-  .title{
-    background-color: #00CA69;
+  .title {
+    background-color: #00ca69;
     padding: 10px 0;
     border-radius: 10px 10px 0 0;
-    h3{
+    h3 {
       text-align: center;
       font-weight: 700;
       font-size: 24px;
       color: black;
     }
   }
-  .properties{
+  .properties {
     margin-bottom: 30px;
-    &-text{
+    &-text {
       padding: 10px 0;
-      border-bottom: 1px ;
-    } 
-  } 
+      border-bottom: 1px;
+    }
+  }
 }
- 
